@@ -38,6 +38,9 @@ body,html{
 	position: absolute;
 	top: 0;
 	left: 0;
+	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+	-webkit-touch-callout: none;
+	pointer-events: none;
 }
 .mod-main .num{
 	font-size: 40px;
@@ -51,6 +54,7 @@ body,html{
 	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
 	-webkit-touch-callout: none;
 	pointer-events: none;
+	z-index: 200;
 }
 .mod-main .btn-again{
 	width: 100px;
@@ -66,9 +70,4 @@ body,html{
 	z-index: 2;
 	position: relative;
 	display: none;
-}
-.cvs {
-	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
-	-webkit-touch-callout: none;
-	pointer-events: none;
 }
