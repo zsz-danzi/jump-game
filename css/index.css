@@ -48,6 +48,8 @@ body,html{
 	right: 0;
 	margin:0 auto;
 	text-align: center;
+	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+	-webkit-touch-callout: none;
 	pointer-events: none;
 }
 .mod-main .btn-again{
