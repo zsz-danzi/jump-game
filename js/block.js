@@ -64,12 +64,11 @@
             .easing( TWEEN.Easing.Elastic.Out )  //Quadratic, Cubic, Quartic, Quintic, Sinusoidal, Exponential, Circular, Elastic, Back 和 Bounce 删掉就是linear
             .onUpdate(function() {
             	_this.y = this.y;
-            	console.log( this.y )
             })
             .onComplete(function(){
             	tween1 = null;
             })
-            .start();	
+            .start();
 	}
 
 
@@ -77,7 +76,6 @@
 		this.x+=this.xSpeed; //的速度 
 	}
 
-   
 
 
 

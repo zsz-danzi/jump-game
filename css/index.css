@@ -41,6 +41,7 @@ body,html{
 	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
 	-webkit-touch-callout: none;
 	pointer-events: none;
+	z-index: 10;
 }
 .mod-main .num{
 	font-size: 40px;
@@ -54,7 +55,6 @@ body,html{
 	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
 	-webkit-touch-callout: none;
 	pointer-events: none;
-	z-index: 200;
 }
 .mod-main .btn-again{
 	width: 100px;
@@ -67,7 +67,7 @@ body,html{
 	display: inline-block;
 	text-align: center;
 	margin:250px auto 0;
-	z-index: 2;
+	z-index: 30;
 	position: relative;
 	display: none;
 }
